@@ -1,0 +1,63 @@
+.main {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.maincont {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+}
+.container {
+  background-color: rgb(232, 232, 232);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.colordot {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-left: 30.5px;
+}
+.myicon {
+  font-size: 200%;
+  margin-right: 5%;
+}
+.colorblue {
+  background-color: blue;
+}
+.coloryellow {
+  background-color: yellow;
+}
+.colorred {
+  background-color: red;
+}
+
+.colorgreen {
+  background-color: green;
+}
+
+.resset {
+  width: 150px;
+  height: 40px;
+  border: 2px solid black;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  right: -20%;
+}

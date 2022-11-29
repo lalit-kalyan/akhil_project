@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <h1 style="padding: 20px">Bubble App</h1>
+
+      <div class="maincont">
+
+
+
+
+        <div class="container">
+          <div
+            name="blue"
+            class="colordot colorblue"
+            id="bluedot"
+            onclick="myblue()"
+          ></div>
+          <i class="fa-solid fa-left-long myicon" id="bluearrow"></i>
+        </div>
+
+
+
+
+        <div class="container">
+          <div
+            class="colordot coloryellow"
+            id="yellowdot"
+            onclick="myYellow()"
+          ></div>
+          <i class="fa-solid fa-left-long myicon" id="yellowarrow"></i>
+        </div>
+
+        <div class="container">
+          <div class="colordot colorred" id="reddot"  onclick="myred()"></div>
+          <i class="fa-solid fa-left-long myicon" id="redarrow" ></i>
+        </div>
+
+        <div class="container">
+          <div class="colordot colorgreen" id="greendot" onclick="mygreen()"></div>
+          <i class="fa-solid fa-left-long myicon" id="greenarrow" ></i>
+        </div>
+      </div>
+      <button class="resset" id="resetValues" onclick="reset()" >Reset</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
